@@ -1,15 +1,17 @@
 <div>
-  <h2 md-dialog-title>MY DIALOG</h2>
-  <hr>
-  <md-dialog-content>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe placeat accusantium facere laboriosam non, atque incidunt sed temporibus ad molestiae consequatur at impedit nam suscipit repudiandae vero dicta doloribus, deleniti.
-    <br>
-    <br>
-    <strong>{{data}}</strong>
-  </md-dialog-content>
-  <hr>
-  <md-dialog-actions>
-    <button md-raised-button (click)="onCloseConfirm()">CONFIRM</button>
-    <button md-raised-button (click)="onCloseCancel()">CANCEL</button>
-  </md-dialog-actions>
+  <h2 mat-dialog-title>My Dialog</h2>
+  <hr />
+
+  <mat-dialog-content>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe placeat accusantium facere laboriosam non, atque incidunt sed temporibus ad molestiae consequatur at impedit nam suscipit repudiandae vero dicta doloribus, deleniti.</p>
+
+    <b>{{data}}</b>
+  </mat-dialog-content>
+
+  <hr />
+
+  <mat-dialog-actions>
+    <button mat-raised-button (click)="onCloseConfirm()">CONFIRM</button>
+    <button mat-raised-button (click)="onCloseCancel()">CANCEL</button>
+  </mat-dialog-actions>
 </div>

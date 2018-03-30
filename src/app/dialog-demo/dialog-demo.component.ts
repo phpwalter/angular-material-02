@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MdDialog } from '@angular/material';
 
-import {MyDialogComponent} from '../my-dialog/my-dialog.component';
+import { MatDialog} from '@angular/material';
+import { MyDialogComponent } from '../my-dialog/my-dialog.component';
 
 @Component({
   selector: 'app-dialog-demo',
@@ -10,9 +10,9 @@ import {MyDialogComponent} from '../my-dialog/my-dialog.component';
 })
 export class DialogDemoComponent implements OnInit {
 
-  dialogResult = "";
+  dialogResult = '';
 
-  constructor(public dialog: MdDialog) { }
+  constructor( public dialog: MatDialog) { }
 
   ngOnInit() {
   }

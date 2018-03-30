@@ -1,6 +1,28 @@
-# Ng4material02
+# Ng4material02 [A5]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0-beta.0.
+This project was generated with
+ 
+* [Angular CLI](https://github.com/angular/angular-cli): 1.7.3
+* Node: 9.8.0
+* OS: win32 x64
+* Angular: 5.2.9
+
+* @angular/cdk: 5.2.4
+* @angular/cli: 1.7.3
+* @angular/material: 5.2.4
+* @angular-devkit/build-optimizer: 0.3.2
+* @angular-devkit/core: 0.3.2
+* @angular-devkit/schematics: 0.3.2
+* @ngtools/json-schema: 1.2.0
+* @ngtools/webpack: 1.10.2
+* @schematics/angular: 0.3.2
+* @schematics/package-update: 0.3.2
+* typescript: 2.5.3
+* webpack: 3.11.0 
+
+### Notes
+
+I updated this tutorial to work with Angular 5. If you simply change "mt*" to "mat*" when tutorial asks for file imports, you can get this to work. 
 
 ## Development server
 
